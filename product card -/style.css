@@ -1,0 +1,50 @@
+ *{
+    box-sizing:border-box;
+
+ }
+ .container{
+    width: 700px;
+    height:400px;
+    background-color:cornsilk;
+    border:1px solid whitesmoke;
+    display:flex;
+    gap:10px;
+    border-radius: 0.7em;
+    /* border:1px solid blue; */
+    box-shadow: 1px 1px 1px silver;
+ }
+ .box1{
+    height:400px;
+    border-radius:.7em;
+ }
+ .box2{
+    background-color:white;
+    width:400px;
+    height: 375px;
+    font-family:"Fraunces",serif;
+    border-radius:.7em;
+    margin:.6em 0 .7em 0;
+    font-weight:700;
+    line-height:1;
+
+ }
+.price{
+    font-size:xx-large;
+    color: #037d50;
+}
+h2{
+    font-size: xx-large;
+}
+.btn{
+    background-color: #037d50;
+    width:200px;
+    height:35px;
+    border-radius:.7em;
+    border-color:#037d50;
+    justify-content: center;
+    
+}
+.cart{
+    width:10px;
+    height:2px;
+}
